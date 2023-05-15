@@ -1,0 +1,346 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+.nav1{
+   display: flex; 
+   justify-content: center;
+   align-items: center;
+   background-color: black;
+   color: white;
+   gap: 20px;
+   height: 90px;
+
+}
+
+.end{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.end p{
+    color: white;
+    font-size: 15px;
+}
+.end img{
+    margin-top: 66px;
+    height: 123px;
+    z-index: 2;
+}
+
+
+.text2 ul {
+    display: flex;
+    list-style-type: none;
+    margin-left: 60px;
+}
+.text2 li a{
+        text-decoration: none;
+        color: white;
+        margin: 5px;
+}
+
+.nav2{
+    background-color: white;
+    height: 50px;
+}
+.liste{
+    display: flex;
+    justify-content: center;
+    margin-right: 23%;
+    gap: 30px;
+}
+ ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+    margin-right: 80px;
+   
+}
+
+.nav2 li a {
+    color: black;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.cone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    gap: 10px;
+    position: relative;
+    left: 120px;
+}
+.icone2{
+    display: flex;
+}
+.icone2 p{
+    position: relative;
+    bottom: 5px;
+   border: 1px solid;
+   text-align: center;
+   border-radius: 30px;
+   color: white;
+   background-color: orangered;
+}
+
+
+.trait img{
+    width: 5%;
+    padding: 10px;
+    border-bottom: 2px solid orangered;
+}
+
+.tout2 .text1{
+    background-image: url('chassures1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 400px;
+    color: white;
+    padding: 50px;
+
+}
+ul .iconefin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+ul .iconefin i{
+    font-size: 5px;
+    color: orange;
+}
+.text1 img{
+    padding: 20px;
+    background-color: transparent;
+}
+.text1 h1{
+    font-size: 45px;
+    margin: auto;
+    padding: 20px;
+}
+.text1 p{
+    font-size: 15px;
+    color: rgb(189, 186, 186);
+}
+.le{
+padding: 20px;
+width: 15%;
+margin: auto;
+}
+.le p{
+    border: 2px solid white;
+    padding: 10px;
+    color: white;
+    font-size: 15px;
+    
+}
+.point{
+    font-size: 6px;
+    padding: 10px;
+    margin-top: 40px;
+}
+.point #i2{
+    font-size: 10px;
+    color: white;
+}
+.point i{
+    margin: 10px;
+    color: rgb(233, 224, 224);
+}
+
+.parti2{
+    display: flex;
+    justify-content: center;
+ 
+}
+
+.sous1{
+   background-image: url('MONTRE-removebg-preview.png');
+   width: 25%;
+   padding: 30px;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: relative;
+}
+fieldset{
+    width: 300px;
+    margin-top: -70px;
+    height: 250px;
+    margin-left: 10px;
+    border: 4px solid white;
+    color: white;
+}
+legend{
+    margin-left: -18px;
+    font-size: 2em;
+    font-weight: 700;
+}
+.sous2{
+    background-image: url('dal.PNG');
+    width: 25%;
+    padding: 35px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+ }
+ .fieldset{
+     width: 300px;
+     margin-top: -70px;
+     height: 250px;
+     margin-left: 10px;
+     border: 4px solid white;
+     color: white;
+
+    
+ }
+ .legend{
+     margin-left: -18px;
+     font-size: 2em;
+     font-weight: 700;
+ }
+
+
+.text{
+    display: flex;
+    color: white;
+    gap: 10px;
+    padding: 10px;
+    font-size: 15px;
+}
+footer h1{
+    text-align: center;
+    font-size: 30px;
+    padding: 30px;
+}
+@media screen and (max-width:1250px) {
+    
+    .nav1{
+        display: flex;
+        flex-direction: column; 
+        gap: 5px;
+        height: 120px;
+     }
+     .end{
+        display: flex;
+        gap: 0px;
+    }
+    .end img{
+        margin-top: 5px;
+        height: 60px;
+        z-index: 1;
+    }    
+}
+
+@media screen and (max-width:700px) {
+    .text2 ul {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 10px;
+    }
+    .text2 li a{
+        margin: 3px;
+}
+
+}
+
+
+@media screen and (max-width:950px) {
+    .liste{
+        display: flex;
+        flex-direction: column;
+        margin-right: 0%;
+    }
+
+    .nav2{
+        height: 90px;
+    }
+    ul{
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: 10px;
+    }
+ .cone{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 5px;
+        gap: 10px;
+        position: relative;
+        bottom: 20px;
+        left: 0px;
+       
+        }
+
+        .trait img{
+            width: 20%;
+            padding: 10px;
+           
+        }
+
+        .tout2 .text1{
+            height: 400px;
+            padding: 20px;
+        
+        }
+        .text1 img{
+            padding: 10px;
+        }
+
+        .text1 h1{
+            font-size: 30px;
+            margin: auto;
+            padding: 10px;
+        }
+        .text1 p{
+            font-size: 20px;
+           
+        }
+        .le{
+            padding: 10px;
+            width: 35%;
+            }
+            .point{
+                font-size: 6px;
+                padding: 10px;
+                margin-top: 30px;
+            }
+
+            .parti2{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+             
+            }
+            .sous1{
+                width: 80%;
+                padding: 30px;
+                position: relative;
+               
+            }
+            fieldset{
+                width: 90%;
+            }
+            .sous2{
+                width: 80%;
+                padding: 30px;
+                position: relative;
+                
+            }
+            .fieldset{
+                width: 90%;
+            }
+           
+}
